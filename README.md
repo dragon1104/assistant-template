@@ -21,6 +21,8 @@ pip install pygame
 
 Поместите файл JSON в папку с программой и измените его имя внутри кода программы
 
+Скачайте архив https://alphacephei.com/vosk/models/vosk-model-small-ru-0.15.zip и распакуйте его в папку model
+
 
 
 
