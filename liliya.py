@@ -15,7 +15,7 @@ sluh=0
 stoptime=60
 
 # Путь до файла JSON полученного в Google Cloud
-put=os.getcwd()+"\dot-courier-e823f8cda46a.json"
+put=os.getcwd()+"\yourkey.json"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = put
 from google.cloud import texttospeech
 client = texttospeech.TextToSpeechClient()
